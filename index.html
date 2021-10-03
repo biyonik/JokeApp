@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joke App | Şaka Üreteci</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+          integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<div class="hero is-primary is-bold">
+    <div class="block"></div>
+    <div class="container">
+        <div class="block has-text-centered"><h1 class="title">Şaka Üreteci :)</h1></div>
+        <div class="block has-text-centered"><h3 class="subtitle">Chuck Norris Replikleri</h3></div>
+        <div class="block">
+            <button class="button is-danger is-fullwidth" id="random_joke_button">Rastgele Şaka Getir</button>
+        </div>
+        <div class="block"></div>
+    </div>
+</div>
+<div class="block"></div>
+<div class="columns">
+    <div class="column is-4 is-offset-4">
+        <div class="container result">
+
+        </div>
+    </div>
+</div>
+
+<script src="node_modules/axios/dist/axios.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
